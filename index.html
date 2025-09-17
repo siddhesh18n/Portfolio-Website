@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Siddhesh Sutar — Graphic Designer</title>
+
+  <!-- Font chosen to match the screenshot style (bold geometric sans) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <button id="mobileMenuBtn" class="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+        <div class="contact">+91 9421486154/9049299575</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile overlay menu -->
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#resume" class="mobile-link">Resume</a></li>
+      <li><a href="#portfolio" class="mobile-link">Portfolio</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="name-block">
+            <div class="first">SUTAR</div>
+            <div class="last">SIDDHESH</div>
+            <div class="subtitle">DevOps & Cloud Engineer</div>
+          </div>
+
+          <div class="hero-cta">
+            <button class="btn btn-outline" id="resumeBtn">Resume</button>
+            <button class="btn btn-ghost" id="portfolioBtn">Portfolio</button>
+          </div>
+
+          <div class="socials" aria-hidden="false">
+            <a href="#" class="social">Bé</a>
+            <a href="#" class="social">f</a>
+            <a href="#" class="social">in</a>
+            <a href="#" class="social">P</a>
+            <a href="#" class="social">♡</a>
+            <a href="#" class="social">✉</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- This area intentionally left minimal to match screenshot composition -->
+        </div>
+      </div>
+      <button class="expand-btn" id="expandBtn" title="Expand">⤢</button>
+    </section>
+
+    <!-- Placeholder sections to navigate to -->
+       <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="about-inner container">
+        <!-- Left column -->
+        <div class="about-left">
+          <h2 class="about-title">ABOUT</h2>
+          <p class="about-email">siddheshsutar07.gmail.com</p>
+          <p class="about-text">
+            Graphic Designer with over 10 years of experience specializing in IT Department
+            management for international logistics companies. I can implement effective IT
+            strategies at local and global levels. My greatest strength is business awareness,
+            which enables me to permanently streamline infrastructure and applications.
+          </p>
+          <p class="about-location">Kolhapur, Maharashtra <br>Kine Ajara</p>
+        </div>
+
+        <!-- Right column (portrait) -->
+        <div class="about-right">
+          <!-- <img src="edited_self.png" alt="Portrait of Jason Martin" class="about-img"> -->
+        </div>
+      </div>
+      <button class="expand-btn" id="aboutExpandBtn" title="Expand">⤢</button>
+    </section>
+
+
+        <!-- RESUME -->
+    <section id="resume" class="resume-section">
+  <div class="resume-container">
+    <!-- Left Column -->
+    <div class="resume-left">
+      <!-- Software Skills -->
+      <div class="resume-box">
+        <h3>SOFTWARE SKILLS</h3>
+        <div class="skill">
+          <span><i class="fab fa-adobe"></i> Photoshop</span>
+          <input type="range" value="90" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span><i class="fab fa-adobe"></i> Illustrator</span>
+          <input type="range" value="85" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span><i class="fab fa-adobe"></i> Indesign</span>
+          <input type="range" value="70" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span><i class="fab fa-adobe"></i> Premiere</span>
+          <input type="range" value="65" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span><i class="fab fa-adobe"></i> After Effect</span>
+          <input type="range" value="80" max="100" disabled>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="resume-box">
+        <h3>LANGUAGES</h3>
+        <div class="skill">
+          <span>English</span>
+          <input type="range" value="95" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span>Hindi</span>
+          <input type="range" value="70" max="100" disabled>
+        </div>
+        <div class="skill">
+          <span>Marathi</span>
+          <input type="range" value="60" max="100" disabled>
+        </div>
+      </div>
+
+      <!-- Personal Skills -->
+      <div class="resume-box">
+        <h3>PERSONAL SKILLS</h3>
+        <p>Creativity • Team Work • Organisation</p>
+      </div>
+    </div>
+
+    <!-- Center Column -->
+    <div class="resume-center">
+      <div class="resume-box">
+        <h3>EXPERIENCE</h3>
+        <ul>
+          <li><strong>Looking for entry level job </strong><br>DevOps & Cloud Engineer</li>
+          <!-- <li><strong>PYRAMIDS SUN ADVERTISING CO.</strong><br>Senior Graphic Designer</li>
+          <li><strong>PLANET STATIONARY & PRINTING SERVICES CO.</strong><br>Graphic Designer</li>
+          <li><strong>PLAY GRAPHIC ADVERTISING AGENCY</strong><br>Graphic Designer</li>
+          <li><strong>MARCO FLORIDA INTERNET & COMPUTERS SERVICES CO.</strong><br>Graphic Designer</li> -->
+        </ul>
+      </div>
+
+      <div class="resume-box">
+        <h3>EDUCATION</h3>
+        <p>BS in Computer Science,<br>Shivaji University, Kolhapur</p>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="resume-right">
+      <div class="resume-box">
+        <h3>WHAT CAN I DO?</h3>
+        <p>Logo • Stationery • Branding<br>
+        Newsletter • Packaging • Catalog<br>
+        Strategy • Advertisement</p>
+      </div>
+
+      <div class="resume-box">
+        <h3>DESIGN SKILLS</h3>
+        <p>Creativity • Planning & Strategy<br>
+        Signs & Typography • Layout<br>
+        Grid • Color Sense • Inspiration</p>
+      </div>
+
+      <div class="resume-box">
+        <h3>HOBBIES & INTERESTS</h3>
+        <div class="hobbies">
+          <span><i class="fas fa-music"></i></span>
+          <span><i class="fas fa-camera"></i></span>
+          <span><i class="fas fa-paint-brush"></i></span>
+          <span><i class="fas fa-plane"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <section id="portfolio" class="section placeholder">
+      <div class="container"><h2>Portfolio</h2><p>Placeholder Portfolio section.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Siddhesh Sutar — DevOps & Cloud Engineer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
